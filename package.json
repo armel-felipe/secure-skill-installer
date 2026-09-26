@@ -1,0 +1,31 @@
+{
+  "name": "secure-skill-installer",
+  "version": "1.0.0",
+  "description": "Security-first workflow for installing, auditing, updating and removing external Agent Skills (skills.sh, Git repos, npx) without ever executing untrusted skill content.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "secure-skill-installer": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "references/"
+  ],
+  "keywords": [
+    "agent-skills",
+    "skills",
+    "claude",
+    "codex",
+    "opencode",
+    "security",
+    "installer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/armel-felipe/secure-skill-installer.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
